@@ -1,0 +1,8 @@
+augment the trainig data with the mutated gene sequences, make note of the new acyl chain
+Write script that takes Cs domain sequences, run alignment script for Cs with each reference 
+Pull out corresponding positions (20 - 30 positions)
+Run simple machine learning algorithms to pick out some pattern and find the length of the chain (range)
+	- Use one hot encode on all of the regions picked out
+	- SVM/Logistic Regression to do binary classification on non-standard vs. standard
+	- Regression to create a prediction on the lipid tails
+	- PCA on the regions to find clusters
